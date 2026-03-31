@@ -1,6 +1,6 @@
 const express = require('express');
 const subtreatementrouting = express.Router();
-const SubModel = require('../Models/SubtreatementModel');
+const SubModel = require('../Models/SubTreatementModel');
 
 // ================= CREATE =================
 subtreatementrouting.post('/subtreatments', async (req, res) => {
